@@ -27,5 +27,5 @@ app.use("/usuarios", usuarioRotas);
 });
 
 app.get("/", (req, res) => {
-  return res.json("Hello World");
+  res.send("Hello World");
 });
